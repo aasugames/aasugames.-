@@ -1,2 +1,156 @@
-# aasugames.-
-Official website for Aasu Games - An independent studio leveling up the future of indie gaming. Built with HTML and CSS.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official home of Aasu Games. Independent game developer specializing in high-energy indie experiences.">
+    <title>Aasu Games | Official Studio Site</title>
+    <style>
+        /* CSS DESIGN */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+            border: 2px solid #ffffff;
+            padding: 30px 15px;
+            border-radius: 5px;
+        }
+
+        /* Logo Styling */
+        .main-logo {
+            width: 150px;
+            height: auto;
+            border: 1px solid #444;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #fff;
+            display: inline-block;
+        }
+
+        .tagline {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            background: #ffffff;
+            color: #000000;
+            display: inline-block;
+            padding: 5px 15px;
+            margin-top: 35px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .content-box {
+            text-align: left;
+            border: 1px solid #333;
+            padding: 20px;
+            margin: 15px 0;
+            background: #0a0a0a;
+        }
+
+        /* Social Media & Contact Buttons */
+        .yt-btn {
+            display: block;
+            background: #ff0000;
+            color: #ffffff;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 25px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .yt-btn:hover {
+            background: #cc0000;
+        }
+
+        .contact-btn {
+            display: block;
+            background: #ffffff;
+            color: #000000;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #444;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="Aasu Games Logo" class="main-logo">
+        <br>
+        <h1>Aasu Games</h1>
+        <p class="tagline">Leveling Up the Future of Indie Gaming</p>
+
+        <h2>About The Studio</h2>
+        <div class="content-box">
+            Aasu Games is an independent game development studio fueled by passion and high-energy creativity. 
+            Our mission is to build immersive worlds and legendary experiences that push the boundaries 
+            of mobile and indie gaming.
+        </div>
+
+        <h2>Latest News</h2>
+        <div class="content-box">
+            <strong>JAN 2026:</strong> The official Aasu Games digital hub is now LIVE! Stay tuned for dev logs and project reveals.
+        </div>
+
+        <h2>Active Projects</h2>
+        <div class="content-box">
+            <strong>SHADOW STRIKE:</strong> A high-stakes stealth action game.<br>
+            <em>Status: Pre-Alpha / In Development</em>
+        </div>
+
+        <h2>The Team</h2>
+        <div class="content-box">
+            <strong>Aasu:</strong> Founder & Creative Director<br>
+            <strong>Gemini:</strong> AI Tech Partner
+        </div>
+
+        <h2>Join The Journey</h2>
+        <a href="https://youtube.com/@aasu_shorts2.0?si=hzTuO8o5SCFAtDpu" target="_blank" class="yt-btn">Subscribe on YouTube</a>
+        <a href="mailto:business@aasugames.com" class="contact-btn">Email Business Inquiries</a>
+
+        <footer>
+            &copy; 2026 AASU GAMES. ALL RIGHTS RESERVED.
+        </footer>
+    </div>
+
+</body>
+</html>
